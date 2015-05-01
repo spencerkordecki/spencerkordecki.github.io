@@ -1,0 +1,78 @@
+body {
+  background: #3498db;
+}
+
+.namecard {
+  text-align: center;
+}
+
+.namecard:before {
+  content: '';
+  display: inline-block;
+  height: 80%;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+
+.namecard-content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  background: #e74c3c;
+  padding: 10px;
+  margin-top: 4em;
+  border: 6px solid #c0392b;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#avatar {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#name, #bio {
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 1.4em;
+  color: #ecf0f1;
+}
+
+#bio {
+  font-size: 1.2em;
+}
+
+#social-icons {
+  font-size: 3em;
+}
+
+#social-icons a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+#shuffler {
+  font-size: 2em;
+}
+
+#shuffle {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#shuffler span {
+  color: #ecf0f1;
+  cursor: pointer;
+  -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  -ms-transition: all .6s ease-in-out;
+}
+
+#shuffler span:hover {
+  color: #e74c3c;
+}
