@@ -33,7 +33,7 @@ html, body {
 }
 
 .portfolio-proficiency-icon {
-  width: 64px;
+  width: auto;
   height: 64px;
 }
 
@@ -69,4 +69,32 @@ html, body {
 
 .mdl-layout__drawer {
   border-right: none;
+}
+
+.fa {
+  font-size: 2em !important;
+  color: #757575;
+}
+
+.mdl-mini-footer {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.mdl-mini-footer ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.mdl-mini-footer .contact-icon {
+  margin: 0 16px;
+  width: 24px;
+  height: 24px;
+  list-style-type: none;
+  padding: 0;
 }
