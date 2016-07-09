@@ -2,6 +2,10 @@ html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
+.no-padding {
+  padding: 0;
+}
+
 .portfolio-drawer-header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -24,10 +28,33 @@ html, body {
   display: block;
 }
 
+.portfolio-proficiency {
+  margin-left: 32px;
+}
+
+.portfolio-proficiency-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .portfolio-nav-name {
   width: 100%;
   display: block;
   color: #fff;
+}
+
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.portfolio-card-content {
+  max-width: 600px;
+}
+
+.portfolio-card-image {
+  width: 100%;
+  height: auto;
 }
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
