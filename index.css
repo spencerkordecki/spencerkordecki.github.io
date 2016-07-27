@@ -1,9 +1,14 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
+  background: #FAFAFA;
 }
 
 .no-padding {
   padding: 0;
+}
+
+.mdl-layout__header-row {
+    padding: 0 40px 0 40px;
 }
 
 .portfolio-drawer-header {
@@ -19,13 +24,6 @@ html, body {
   padding: 16px;
   height: 150px;
   background: #009688;
-}
-
-.portfolio-avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-  display: block;
 }
 
 .portfolio-proficiency {
@@ -53,22 +51,20 @@ html, body {
 }
 
 .portfolio-card-image {
-  width: 100%;
   height: auto;
+  width: 100%;
+  background: url('images/header.jpg') no-repeat center center fixed;
+  object-fit: cover;
 }
 
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+#projects-card-omnia > .mdl-card__title {
+    height: 176px;
+    background: url('images/omnia.png') center / cover;
 }
 
-.mdl-navigation__link .material-icons {
-  margin-right: 32px;
-}
-
-.mdl-layout__drawer {
-  border-right: none;
+#projects-card-play > .mdl-card__title {
+    height: 176px;
+    background: url('images/android.jpg') center / cover;
 }
 
 .fa {
