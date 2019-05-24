@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+a:focus {
+  outline: 2px dashed #00bfff;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -34,6 +38,7 @@ body {
 .about__link {
   color: black;
   padding: 0 1em;
+  font-size: 1.6rem;
 }
 
 .project__title {
@@ -42,6 +47,7 @@ body {
 
 .project__link {
   color: #fff;
+  font-size: 1.4rem;
 }
 
 .about__description,
@@ -81,6 +87,16 @@ body {
 
   .project {
     flex: 0 1 50%;
+  }
+
+  .project__title {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+  }
+
+  .project__link {
+    font-size: 1.4rem;
   }
 }
 
